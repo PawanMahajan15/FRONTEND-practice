@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+ }
+ 
+#main{
+    height: 100%;
+    width: 100%;
+}
+nav{
+background-color: rgb(255, 255, 255);
+justify-content: end;
+align-items: center;
+display: flex;
+gap: 20px;
+padding: 0px 30px;
+height: 50px;
+}
+ic{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+h1{
+    margin:20px 20px 0px 90px;
+    font-size: 5vw;
+    line-height: 5.4vw;
+    font-weight: 100;
+}
+p{
+    margin: 30px 90px;
+    width: 26%;
+font-size: 1.2vw;
+}
+#data{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+}
+
+.elem { 
+    padding-top: 10px; 
+    margin:5px; 
+     width: 180px;
+    border-top: 2px rgb(0, 0, 0) solid;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;    
+}
+i{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0;
+}
+.elem:hover i{
+    opacity: 1;
+}
+#bottom{
+    width: 100%;
+    height: 37%;
+    background-image: url("https://i.pinimg.com/736x/60/a6/e2/60a6e2b0776d1d6735fce5ae7dc9b175.jpg");
+    background-size: cover;
+    background-position: 0 60%; 
+}
+@media(max-width: 600px){
+     #main{
+    height: 100%;
+    width: 100%;
+}
+nav{
+background-color: rgb(255, 255, 255);
+justify-content: end;
+display: flex;
+gap: 10px;
+padding: 10px;
+font-size: 3vw;
+}
+
+ic{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+h1{
+    margin:20px 10px 0px 15px;
+    font-size: 11vw;
+    line-height: 12.4vw;
+    font-weight: 100;
+}
+p{
+    margin: 20px 15px;
+    width: 70%;
+font-size: 4.2vw;
+}
+#data{
+    display: block;
+}
+.elem { 
+    padding-top: 10px; 
+    margin-left:15px;
+     width: 300px;
+    border-top: 2px rgb(0, 0, 0) solid;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;    
+}
+i{
+    font-weight: 500;
+}
+#bottom{
+    width: 100%;
+    height: 28.5%;
+    margin-top: 24px;
+    background-image: url("https://i.pinimg.com/736x/60/a6/e2/60a6e2b0776d1d6735fce5ae7dc9b175.jpg");
+    background-size: cover;
+    background-position: 0 70%;
+    background-color: black;
+}
+}

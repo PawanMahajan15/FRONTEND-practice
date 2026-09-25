@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+k{
+    position: relative;
+    font-size: 200%;
+    width: fit-content;
+}
+k::before{
+    top: 50%;
+    position: absolute;
+    content:'';
+    width: 100%;
+    height: 3px;
+    background-color: crimson;
+    
+}
+k::after{
+    top: 100%;
+    position: absolute;
+    content:'';
+    width: 100%;
+    height: 3px;
+    
+    background-color: rgb(23, 220, 20);
+}
+h1::first-line{
+    color: blue;
+}
+h1::first-letter{
+   font-size: 120px;
+   color: brown;
+}
+h1::selection{
+    color: chartreuse;
+}
+h1:hover{
+    color: crimson;
+}
+button:active{
+   background-color:red ; 
+   color: greenyellow;
+}
+input:focus{
+    background-color: aqua;
+}
+p:nth-child(2n){
+   color: aquamarine;
+}

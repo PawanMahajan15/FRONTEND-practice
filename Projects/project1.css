@@ -1,0 +1,1200 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: relative;
+    padding-top: 0.1px;
+}
+#nav1{
+    height: 7vw;
+    width: 100%;
+    /* background-color: rgb(29, 203, 203); */
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+#nav1 h1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(11, 11, 208); */
+    height: 100%;
+    width: 24%;
+    font-family:Monument;
+    font-size: 39px;
+    letter-spacing: -2px;
+}
+#nav1 h1::after{
+    content:"©";
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;
+    position: absolute;
+    font-weight: 200;
+    top: 19%;
+    left: 83%;
+}
+#nav1 h1::before{
+    content:"model management";
+    width: 100%;
+    letter-spacing:1px ;
+    font-weight: 100;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    position: absolute;
+    bottom:21%;
+    left: 45%;
+}
+#nav1 h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    height: 100%;
+    width: 28%;
+    font-size: 18px;
+    border-right: 2px solid black;
+}
+#nav1 h3:nth-child(3){
+    width: 16%;
+}
+#nav1 h3:nth-child(2){
+    width: 15%;
+}
+#nav1 h3:nth-child(5){
+    font-size:25px;
+    font-weight:500 ;
+    width: 17%;
+}
+#nav1 h4{
+    display: none;
+}
+#center{
+    height: 85%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 45px;
+    position: relative;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+}
+#content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+#overlay{
+    height: 55%;
+    width: 100%;
+    /* background-color: red; */
+    bottom: 0;
+    position: absolute;
+      padding: 3vw;
+      color: #f8f8f8;
+}
+#over1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+#over1 h1{
+    font-family: monument;
+    font-size: 3.5vw;
+}
+#over1 h3{
+    font-size: 1.5vw;
+    font-weight: 100;
+    border-radius: 50%;
+    border: 1px solid white; 
+    padding: 2vw;   
+    border-bottom: 3px solid;
+}
+#over2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top:1.2px solid white ;
+}
+#over2 h4{
+    font-size: 1.6vw;
+    font-weight: 100;
+}
+#over2 img{
+    height: 5vw;
+}
+#scrol{
+    height: 40vh;
+    width: 100%;
+    /* background-color:#f8f8f8; */
+    white-space:nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#container{
+   height: 100%;
+    width: 100%;
+    display: inline-block;
+    /* background-color: black; */
+    animation: animetion  10s linear infinite;
+}
+#container img{
+    height: 15vw;
+    width: 15vw;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: top;
+    margin-right: 1vw;
+}
+#container img:nth-child(2){
+    object-position: center;
+}
+#container img:nth-child(5){
+    object-position: center;
+}
+@keyframes animetion {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+#alphabet{
+    height: 10vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+    text-transform: uppercase;
+    border-bottom:2px solid black;
+    border-top: 2px solid black;
+}
+#alphabet h5{
+    font-size: 2vw;
+    font-style: italic;
+    font-weight: 400;
+    border-bottom: 2px solid black;
+    margin-right: 1vw;
+}
+#alphabet h6{
+    font-size: 1vw;
+    font-style: italic;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    font-weight: 400;
+    padding:0.6vw 0.8vw;
+    transition: all ease-in 0.2s;
+}
+#alphabet h6:hover{
+    border: 1px solid rgba(0, 0, 0);
+    cursor: pointer;
+}
+#page2{
+    display:flex;
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 3vw 6vw;
+    display: flex;
+}
+#part1{
+    height: 90vh;
+    width: 50vw;
+    /* background-color: beige; */
+    background-size: cover;
+}
+#part1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 30%;
+}
+#part2{
+    height: 90vh;
+    width: 40vw;
+    margin-left: 6vh;
+}
+#image{
+    height: 62vh;
+    width: 100%;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 30%;
+}
+#written{
+    display: flex;
+    justify-content: space-between;
+    padding-top:5vh ;
+}
+#p1{
+ height: 100%;
+ width: 40%;
+ font-size: 4vh;
+ font-weight: 600;
+}
+#p2{
+    height: 100%;
+    width: 45%;
+    font-weight: 600;
+}
+#heading{
+    height: 10vh;
+margin-left: 11vh;
+font-family: monument;
+}
+#part3{
+    height: 90vh;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0vw 6vw;
+    display: flex;
+}
+#img1{
+    height: 85vh;
+    width: 40vw;
+    /* background-color: rgb(201, 7, 7); */
+    position: relative;
+}
+#circular{
+    height: 70vh;
+    width: 40vw;
+    /* background-color: rgb(203, 130, 130); */
+    padding: 7vw 11vw;
+    position: relative;
+}
+#black{
+    position: absolute;
+    left:40%;
+    top: 35%;
+}
+#write{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    font-size: 1.5vw;
+    font-weight: 600;
+    padding: 2vw 0vw 0vw 9vw;
+}
+#img2{
+    height: 85vh;
+    width: 40vw;
+    /* background-color: black; */
+    margin-left: 5vw;
+    background-size: cover;
+    background-position: 10%;
+    background-image: url(https://images.unsplash.com/photo-1596937098204-3900ffd6c0ed?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG90JTIwbW9kZWx8ZW58MHx8MHx8fDA%3D);
+}
+#part4{
+    height: 100vh;
+    width: 100%;
+    /* background-color:aqua; */
+     padding:1px 6vw 0vh 6vw;
+}
+#img5{
+    margin-top: 6vh;
+     height: 75vh;
+    width: 100%;
+    background-color:rgb(21, 25, 25);
+    background-position:0% 25%;
+    background-image: url(https://media.istockphoto.com/id/2221031410/photo/smiling-indian-businesswoman-sitting-at-office-desk.jpg?s=1024x1024&w=is&k=20&c=eDhWhDy7PawzE003dFDC1IxCbE08UjQlypaLMyWBxMs=);
+}
+#update{
+    height: calc(100vh - 81vh);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monument;
+}
+#part5{
+    height: 85vh;
+    width: 100%;
+    padding: 0vh 6vw;
+}
+.elem{
+height: 17vh;
+width: 100%;
+border-top: 2px solid black;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+
+}
+.elem h4{
+    font-size: 2vh;
+    letter-spacing: -1px;
+    width: 10vh;
+}
+.elem h5{
+    font-weight: 600;
+}
+.elem h1{
+    width: 80vh;
+}
+.elem:nth-child(4){
+border-bottom: 2px solid black;
+}
+#model{
+width: 100px;
+height: 100px;
+/* background-color: aquamarine; */
+position: absolute;
+left:12%;
+transition: all ease 0.7s;
+}
+#model2{
+position: absolute;
+left:12%;
+opacity: 0;
+transition: all ease 0.7s;
+}
+#model img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    opacity: 0;
+transition: all ease 0.7s;
+
+}
+.elem:hover #model img{
+    opacity: 1;
+}
+.elem:hover #model2{
+    opacity: 1;
+    left: 25%;
+}
+.elem:hover #model{
+    left: 25%;
+}
+#part6{
+    height:100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0vh 6vw;
+    display: flex;
+}
+#part6>img{
+    height: 90vh;
+    width: 40vw;
+    object-fit: cover;
+    object-position: 0 25%;
+}
+#second{
+    height:90vh;
+    width: calc(100% - 47vw);
+    /* background-color: blanchedalmond; */
+    margin-left: 13vh;
+}
+#second h1{
+    font-family: monument;
+    letter-spacing: 2px;
+}
+ #second h4{
+    font-size: 1.6vw;
+    padding:4vw  0vw;
+    margin-right: 17vw;
+ }
+ #second2 {
+    margin-top: 7vh;
+    display: flex;
+    height: 41.7vh
+    
+ }
+ #second2 img{
+  height: 100%;
+width: 100%;
+object-fit: cover;
+ }
+ #second2 img:nth-child(2){
+    margin-left: 5px;
+ }
+ #part7{
+ height: 14vh;
+ width: 100%;
+ /* background-color: aqua; */
+ }
+ #primer{
+   height: 14vh;
+   width: 100%;
+   /* background-color: bisque; */
+   white-space: nowrap;
+    overflow-x: hidden; 
+   overflow-y: hidden; 
+   border-top: 2px solid black;
+   border-bottom: 2px solid black;
+   padding: 1.5vw 0vw;
+ }
+ #primer h1{
+    display:inline-block;
+    width: fit-content;
+ -webkit-text-stroke: 2px black;
+ font-size: 3vw;
+ color: transparent;
+ letter-spacing: 3px;
+ font-family: monument;
+ /* background-color: aquamarine; */
+ margin-left: 16px;
+ animation-name: pri;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+ }
+ @keyframes pri {
+       from{
+        transform: translateX(0);
+       }
+       to{
+        transform: translateX(calc(-100% - 20px));
+       }
+ }
+ #part8{
+    height: 86vh;
+    width: 100%;
+    padding: 4vw 6vw 0vw 6vw;
+    /* background-color: rgb(43, 113, 113); */
+    display: flex;
+ }
+ #blog{
+    height: 100%;
+    width: 18vw;
+    /* background-color: bisque; */
+    font-family: monument;
+    font-size: 1.8vw;
+ }
+ #jack{
+    margin-left: 5vw;
+    height:100%;
+    width: 30vw;
+    /* background-color: blue; */
+ }
+ #jack p{
+    height: 30%;
+    width: 100%;
+    font-size: 1.8vw;
+ }
+ #jack p::before{
+ content: "Ⓑ";
+ padding-right: 1vw;
+ }
+ #jack img{
+    height: calc(100% - 30%);
+    width: 100%;
+   object-fit: cover;
+   object-position:0 15%;
+
+ }
+ #london{
+    margin-left: 4vw;
+    height:100%;
+    width: 33vw;
+    /* background-color: blue; */
+ }
+#london p{
+    height: 30%;
+    width: 100%;
+    font-size: 1.8vw;
+    /* background-color: bisque; */
+ }
+ #london p::before{
+ content: "Ⓑ";
+ padding-right: 1vw;
+ }
+ #london img{
+    height: calc(100% - 30%);
+    width: 100%;
+   object-fit: cover;
+   object-position:0% 25%;
+ }
+ #part9{
+    margin-top: 10vh;
+    height: 30vh;
+    width: 100%;
+    /* background-color: aqua; */
+ }
+ #s0{
+    height: 90%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    display: flex;
+    padding: 0vw 0vw 0vw 6vw;
+ }
+ #s1 {
+    height: 100%;
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: bisque; */
+ }
+ #s1 h1{
+    width: 20vw;
+    /* background-color: blue; */
+    position: relative;
+    padding: 1vw 0vw;
+    font-family: monument;
+    letter-spacing: -1.5px;
+ }
+#s1 h1::after{
+    content:"©";
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5vw;
+    position: absolute;
+    font-weight: 200;
+    left: 65%;
+    top: 2%;
+} 
+ #s1 h1::before{
+    content:"model management";
+    letter-spacing:1px ;
+    font-weight: 100;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    position: absolute;
+    bottom: 67%;
+    left: 18%;
+} 
+#s1 h3{
+    /* background-color: blueviolet; */
+    width: 17vw;
+    padding: 1vw 3.5vw;
+border-right: 2px solid black;
+}
+#s2{
+    height: 100%;
+    width: 40%;
+}
+#s2 h3{
+width: 100%;
+padding: 1vw;
+border-bottom: 2px solid ;
+/* background-color: chocolate; */
+}
+#s21{
+    /* background-color: antiquewhite; */
+    width: 100%;
+    padding: 1vw;
+}
+#s21 i{
+    margin-left: 0.5vw;
+}
+#s21 p{
+    font-weight: 600;
+    font-size: 1vw;
+    margin-top: 1vw;
+} 
+@media (max-width:600px){
+    #main{
+    height: 100%;
+    width: 100%;
+    background-color: #f8f8f8;
+    position: relative;
+    padding-top: 0.1px;
+    overflow-x: hidden;
+}
+#nav1{
+    height: 10vw;
+    width: 100%;
+    /* background-color: rgb(29, 203, 203); */
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 2vw;
+}
+#nav1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(11, 11, 208); */
+    height: 100%;
+    width: 28%;
+    font-family:Monument;
+    font-size: 22px;
+    letter-spacing: -2px;
+}
+#nav1 h1::after{
+display: none;
+}
+#nav1 h1::before{
+    display: none;
+}
+#nav1 h3{
+    display: none;
+    
+}
+#nav1 h4{
+    display: block;
+}
+#center{
+    height:fit-content;
+    width: 100%;
+    /* background-color: red; */
+    padding: 15px;
+    position: relative;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+}
+#content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+#overlay{
+    height: 45%;
+    width: 100%;
+    /* background-color: red; */
+    bottom: 0;
+    position: absolute;
+      padding: 3vw;
+      color: #f8f8f8;
+}
+#over1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+#over1 h1{
+    font-family: monument;
+    font-size: 3.5vw;
+    font-weight: 400;
+}
+#over1 h3{
+    font-size: 2.5vw;
+    font-weight: 100;
+    border-radius: 50%;
+    border: 1px solid white; 
+    padding: 2vw;   
+    border-bottom: 3px solid;
+}
+#over2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top:1.2px solid white ;
+}
+#over2 h4{
+    font-size: 2.6vw;
+    font-weight: 100;
+}
+#over2 img{
+    height: 10vw;
+}
+#scrol{
+    height: 12vh;
+    width: 100%;
+    /* background-color:#f8f8f8; */
+    white-space:nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#container{
+   height: 100%;
+    width: 100%;
+    display: inline-block;
+    /* background-color: black; */
+    animation: animetion  10s linear infinite;
+}
+#container img{
+    height: 15vw;
+    width: 15vw;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: top;
+    margin-right: 1vw;
+}
+#container img:nth-child(2){
+    object-position: center;
+}
+#container img:nth-child(5){
+    object-position: center;
+}
+@keyframes animetion {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+#alphabet{
+    height: 5vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1vw;
+    text-transform: uppercase;
+    border-bottom:2px solid black;
+    border-top: 2px solid black;
+}
+#alphabet h5{
+    font-size: 3vw;
+    font-style: italic;
+    font-weight: 400;
+    border-bottom: 2px solid black;
+    margin-right: 1vw;
+}
+#alphabet h6{
+    font-size: 1.7vw;
+    font-style: italic;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    font-weight: 400;
+    padding:0.6vw 0.8vw;
+    transition: all ease-in 0.2s;
+}
+#alphabet h6:hover{
+    border: 1px solid rgba(0, 0, 0);
+    cursor: pointer;
+}
+#page2{
+    display:flex;
+    height: 50vh;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 3vw 3vw;
+    display: flex;
+}
+#part1{
+    height: 45vh;
+    width: 50vw;
+    /* background-color: beige; */
+    background-size: cover;
+}
+#part1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 30%;
+}
+#part2{
+    height: 45vh;
+    width: 50vw;
+    margin-left: 1vh;
+}
+#image{
+    height: 32vh;
+    width: 100%;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 30%;
+}
+#written{
+    display: flex;
+    justify-content: space-between;
+    padding-top:1vh ;
+}
+#p1{
+ height: 100%;
+ width: 42%;
+ font-size: 1.8vh;
+ font-weight: 100;
+}
+#p2{
+    font-size: 1.3vh;
+    height: 100%;
+    width: 45%;
+    font-weight: 100;
+}
+#heading{
+    height: 8vh;
+    margin-left: 0vh;
+display: flex;
+justify-content: center;
+font-family: monument;
+}
+#part3{
+    height: 50vh;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0vw 3vw;
+    display: flex;
+}
+#img1{
+    height: 50vh;
+    width: 50vw;
+    /* background-color: rgb(201, 7, 7); */
+    position: relative;
+}
+#circular{
+    height: 40vh;
+    width: 100%;
+    /* background-color: rgb(203, 130, 130); */
+    padding: 9vh 5vw;
+    position: relative;
+}
+#circular img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+#black{
+    width: 10vh;
+    position: absolute;
+    left:30%;
+    top: 37%;
+}
+#write{
+    height: 10vh;
+    width: 90%;
+    display: flex;
+    font-size: 2.5vw;
+    font-weight: 600;
+    padding: 6vw 0vw 0vw 4vw;
+    /* background-color: aqua; */
+}
+#img2{
+    height: 50vh;
+    width: 50vw;
+    /* background-color: black; */
+    margin-left: 2vw;
+    background-size: cover;
+    background-position:80% 10%;
+    background-image: url(https://images.unsplash.com/photo-1596937098204-3900ffd6c0ed?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG90JTIwbW9kZWx8ZW58MHx8MHx8fDA%3D);
+}
+#part4{
+    height:42vh;
+    width: 100%;
+    /* background-color:aqua; */
+     padding:1px 3vw 0vh 3vw;
+}
+#img5{
+    margin-top: 3vh;
+     height: 30vh;
+    width: 100%;
+    background-size: cover;
+    background-color:rgb(179, 122, 57);
+    background-image: url(https://media.istockphoto.com/id/2221031410/photo/smiling-indian-businesswoman-sitting-at-office-desk.jpg?s=1024x1024&w=is&k=20&c=eDhWhDy7PawzE003dFDC1IxCbE08UjQlypaLMyWBxMs=);
+}
+#update{
+    height:10vh;
+    width: 100%;
+    display: flex;
+    font-size: 3vw;
+    align-items: center;
+    justify-content: center;
+    font-family: monument;
+}
+#part5{
+    height: 55vh;
+    width: 100%;
+    padding: 0vh 3vw;
+    /* background-color: aqua; */
+}
+.elem{
+height: 13vh;
+width: 100%;
+border-top: 2px solid black;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+
+}
+.elem h4{
+    font-size: 1.5vh;
+    letter-spacing: -1px;
+    width: 5vh;
+}
+.elem h5{
+    font-weight: 600;
+}
+.elem h1{
+    width: 30vh;
+    font-size: 3vh;
+}
+.elem:nth-child(4){
+border-bottom: 2px solid black;
+}
+#model{
+width: 50px;
+height: 50px;
+/* background-color: aquamarine; */
+position: absolute;
+left:12%;
+transition: all ease 0.7s;
+}
+#model2{
+position: absolute;
+font-size: 2vw;
+left:12%;
+opacity: 0;
+transition: all ease 0.7s;
+}
+#model img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    opacity: 0;
+transition: all ease 0.7s;
+
+}
+.elem:hover #model img{
+    opacity: 1;
+}
+.elem:hover #model2{
+    opacity: 1;
+    left: 25%;
+}
+.elem:hover #model{
+    left: 25%;
+}
+#part6{
+    height:55vh;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0vh 3vw;
+    display: flex;
+}
+#part6>img{
+    height: 50vh;
+    width:40%;
+    object-fit: cover;
+    object-position: 60% 25%;
+}
+#second{
+    height:50vh;
+    width: 60%;
+    /* background-color: blanchedalmond; */
+    margin-left: 1.5vh;
+}
+#second h1{
+    font-family: monument;
+    font-size: 3vw;
+    letter-spacing: 1px;
+}
+ #second h4{
+    font-size: 2.5vw;
+    padding:2vw  0vw;
+    margin-right: 4vw;
+ }
+ #second p{
+    font-size: 3vw;
+ }
+ #second2 {
+    margin-top: 1vh;
+    display: flex;
+    height:25vh;
+ }
+ #second2 img{
+  height: 100%;
+width: 49%;
+object-fit: cover;
+ }
+ #second2 img:nth-child(2){
+    margin-left: 5px;
+ }
+ #part7{
+ height: 7vh;
+ width: 100%;
+ /* background-color: aqua; */
+ }
+ #primer{
+   height: 7vh;
+   width: 100%;
+   /* background-color: bisque; */
+   white-space: nowrap;
+    overflow-x: hidden; 
+   overflow-y: hidden; 
+   border-top: 2px solid black;
+   border-bottom: 2px solid black;
+   padding: 2vw 0vw;
+ }
+ #primer h1{
+    display:inline-block;
+    width: fit-content;
+ -webkit-text-stroke: 1px black;
+ font-size: 5vw;
+ color: transparent;
+ letter-spacing: 2px;
+ font-family: monument;
+ /* background-color: aquamarine; */
+ margin-left: 8px;
+ animation-name: pri;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+ }
+ @keyframes pri {
+       from{
+        transform: translateX(0);
+       }
+       to{
+        transform: translateX(calc(-100% - 12px));
+       }
+ }
+ #part8{
+    height: 50vh;
+    width: 100%;
+    padding: 4vw 3vw 0vw 3vw;
+    /* background-color: rgb(43, 113, 113); */
+    display: flex;
+ }
+ #blog{
+    height: 100%;
+    width: 20%;
+    /* background-color: bisque; */
+    font-family: monument;
+    font-size: 2.5vw;
+ }
+ #jack{
+    margin-left: 5vw;
+    height:100%;
+    width: 40%;
+    /* background-color: blue; */
+ }
+ #jack p{
+    height: 20%;
+    width: 100%;
+    font-size: 2.2vw;
+ }
+ #jack p::before{
+ content: "Ⓑ";
+ padding-right: 1vw;
+ }
+ #jack img{
+    height: calc(100% - 20%);
+    width: 100%;
+   object-fit: cover;
+   object-position:50% 15%;
+
+ }
+ #london{
+    margin-left: 4vw;
+    height:100%;
+    width: 40%;
+    /* background-color: blue; */
+ }
+#london p{
+    height: 20%;
+    width: 100%;
+    font-size: 2.2vw;
+    /* background-color: bisque; */
+ }
+ #london p::before{
+ content: "Ⓑ";
+ padding-right: 1vw;
+ }
+ #london img{
+    height: calc(100% - 20%);
+    width: 100%;
+   object-fit: cover;
+   object-position:50% 25%;
+ }
+#part9{
+    margin-top:3vh;
+    height: 15vh;
+    width: 100%;
+    /* background-color: aqua; */
+ }
+ #s0{
+    height: 90%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    display: flex;
+    padding: 0vw 0vw 0vw 6vw;
+ }
+ #s1 {
+    height: 100%;
+    width:50%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* background-color: bisque; */
+ }
+ #s1 h1{
+    width: 100%;
+    /* background-color: blue; */
+    /* position: relative; */
+    padding: 5vw 0vw;
+    font-family: monument;
+    letter-spacing: -1px;
+    font-size: 5vw;
+ }
+#s1 h1::after{
+    display: none;
+} 
+ #s1 h1::before{
+    display: none;
+} 
+#s1 h3{
+    /* background-color: blueviolet; */
+    display: none;
+}
+#s2{
+    border-left:2px solid black ;
+    height: 100%;
+    width: 50%;
+}
+#s2 h3{
+    height: 30%;
+width: 100%;
+padding: 1vw;
+border-bottom: 2px solid ;
+font-size: 2vw;
+/* background-color: chocolate; */
+}
+#s21{
+    /* background-color: antiquewhite; */
+    width: 100%;
+    padding: 1vw;
+}
+#s21 i{
+    margin-left: 0vw;
+}
+#s21 p{
+    font-weight: 600;
+    font-size: 1.5vw;
+    margin-top: 2vw;
+} 
+}
+
+
+
+
+
+
+
+
+

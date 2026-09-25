@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%; 
+    padding: 20px;
+}
+#tabs{
+    display: flex;
+    gap: 20px;
+}
+.tab{
+    padding: 20px 22px;
+    background-color:#e1dfdf;
+    border:2px solid #dadada;
+    font-weight: 700;
+}
+h3{
+    margin-top: 20px;
+    width: 50%;
+    font-size: 15px;
+    display: none;
+}
+#center{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+#download{
+    height: 10px;
+    width: 300px;
+    background-color: #dadada;
+    border-radius: 100px;
+}
+#progress{
+    height: 100%;
+    width: 0%;
+    background-color: greenyellow;
+    border-radius: 100px;
+    transition: all linear .2s;
+}
+#text{
+    opacity:0;
+}

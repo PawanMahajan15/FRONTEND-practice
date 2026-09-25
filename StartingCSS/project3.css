@@ -1,0 +1,228 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Playfair Display;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 130px 0px 0px 50px;
+    justify-content: center;
+}
+#left{
+    height: 100%;
+    width:40%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 7.7vw;
+    line-height: 7vw;
+    font-weight: 500;
+    /* font-family: Playfair Display; */
+}
+#color{
+    display: flex;
+    margin-top: 35%;
+     width:fit-content;
+     align-items: center;
+     border: 2px solid black;
+     border-radius: 50px;
+     padding: 2px;
+}
+
+h5{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-right: 10px;
+}
+#color1{
+    width: 15px;
+    height: 15px;
+    background-color: brown;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+#color2{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(42, 73, 165);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+#para{
+    margin-top: 29px;
+}
+h3{
+    margin-bottom: 4px;
+    font-size: 1.3vw;
+}
+p{
+    font-size: 0.8vw;
+    width: 60%;
+}
+#right{
+margin-top: 6.2%;
+    height: 85%;
+    width:30%;
+    /* background-color: rgb(226, 43, 104); */
+}
+#top{
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8vw;
+}
+ #top h5 i{
+    color: rgb(252, 215, 4);
+}
+h2{
+font-family: monospace;
+}
+#image{
+    height:92.7%;
+    width: 100%;
+    background-size:cover;
+    margin-top: 4%;
+    display: flex;
+    background-image:url(https://plus.unsplash.com/premium_photo-1709311897767-f6ce7e1fc227?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#gola{
+    position: absolute;
+    top: 50%;
+    right: 10.5%;
+    height: 100px;
+    width: 100px;
+    color: aliceblue;
+    background-color: rgb(43, 25, 25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    }
+#rotated{
+    transform-origin: 0 0;;
+    rotate:  270deg;
+    position: absolute;
+    right:29% ;
+    top: 90%;
+    font-size: 17px;
+    font-weight: 100;
+}
+@media (max-width:600px) {
+    #main{
+   display: flex;
+    padding: 0px 0px 0px 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+#left{
+    height: 50%;
+    width:100%; 
+    /* background-color: aqua; */
+}
+h1{
+    font-size: 19vw;
+    line-height: 17vw;
+}
+#color{
+    display: flex;
+    margin-top: 12%;
+     width:fit-content;
+     align-items: center;
+     border: 2px solid black;
+     border-radius: 50px;
+     padding: 2px;
+}
+
+h5{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-right: 10px;
+}
+#color1{
+    width: 15px;
+    height: 15px;
+    background-color: brown;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+#color2{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(42, 73, 165);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+#para{
+    margin-top: 9px;
+}
+h3{
+    margin-bottom: 2px;
+    font-size: 3.5vw;
+}
+p{
+   font-size: 2.5vw;
+    width: 80%;
+}
+#right{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 55%;
+    width:100%;
+    padding-right:7%;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+    font-size:4vw;
+   margin-top: 3%;
+}
+i{
+    color: rgb(251, 255, 0);
+}
+h2{
+font-family: monospace;
+}
+#image{
+    height:100%;
+    width: 100%;
+    background-size:cover;
+    background-position: 50%;
+    margin-top: 4%;
+    /* display: flex; */
+    background-image:url(https://plus.unsplash.com/premium_photo-1709311897767-f6ce7e1fc227?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+#gola{
+    position: absolute;
+    top: 43%;
+    right:0.1%;
+    height: 100px;
+    width: 100px;
+    color: aliceblue;
+    background-color: rgb(43, 25, 25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    }
+#rotated{
+    transform-origin: 0 0px;
+    rotate:  0deg;
+    position: absolute;
+    right:35% ;
+    top: 46%;
+    font-size: 17px;
+    font-weight: 100;
+}
+}
+
