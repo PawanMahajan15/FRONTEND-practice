@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding: 15vh 22vw;
+    background-color: #f1f1f1;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    /* background-color: #34f20e; */
+}
+input{
+    width: 100%;
+        font-size: 20px;
+    padding: 7px;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 5vw;
+    margin-bottom: 1vh;
+}
+#peoples{
+display: flex;
+gap: 1vw;
+flex-wrap: wrap;
+justify-content: center;
+height: 100%;
+width: 100%;
+/* background-color: aquamarine; */
+}
+#person{
+    width:120px;
+    height: 120px;
+    /* background-color: aqua; */
+    /* border:2px solid black; */
+     font-size: 20px;
+    font-weight: 700;
+    justify-items: center;
+} 
+#image{
+    height: 100px;
+    width: 100px;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
